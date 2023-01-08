@@ -1,0 +1,8 @@
+ "name": "third_micro",
+        "id": "6feec6bf-49a9-465f-83a3-4fb71dc9af52",
+        "project": "d07j83i6",
+        "runtime": "nodejs14.x",
+        "endpoint": "https://6plwl4.deta.dev",
+        "region": "ap-south-1",
+        "visor": "disabled",
+        "http_auth": "disabled"
