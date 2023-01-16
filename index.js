@@ -8,7 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => res.send('Hello World!'))
-app.use('/api',require('./API/geolocation'));
+app.use('/api', require('./API/geolocation'));
+app.use('/address', require('./API/lat_lon'));
 
 app.listen(port, () => {
   console.log(`server listening at http://localhost:${port}`)
